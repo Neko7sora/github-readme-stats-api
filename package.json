@@ -12,16 +12,16 @@
   "author": "Anurag Hazra",
   "license": "MIT",
   "devDependencies": {
-    "@actions/core": "^1.2.4",
-    "@actions/github": "^4.0.0",
-    "@testing-library/dom": "^7.20.0",
-    "@testing-library/jest-dom": "^5.11.0",
-    "axios": "^0.19.2",
-    "axios-mock-adapter": "^1.18.1",
-    "css-to-object": "^1.1.0",
-    "husky": "^4.2.5",
-    "jest": "^26.1.0",
-    "parse-diff": "^0.7.0"
+    "@actions/core": "1.2.6",
+    "@actions/github": "4.0.0",
+    "@testing-library/dom": "7.30.3",
+    "@testing-library/jest-dom": "5.11.10",
+    "axios": "0.19.2",
+    "axios-mock-adapter": "1.19.0",
+    "css-to-object": "1.1.0",
+    "husky": "4.3.8",
+    "jest": "26.6.3",
+    "parse-diff": "0.7.1"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
