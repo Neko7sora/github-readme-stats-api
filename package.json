@@ -15,7 +15,7 @@
     "@actions/core": "1.4.0",
     "@actions/github": "5.0.0",
     "@testing-library/dom": "7.31.2",
-    "@testing-library/jest-dom": "5.12.0",
+    "@testing-library/jest-dom": "5.14.1",
     "axios": "0.21.1",
     "axios-mock-adapter": "1.19.0",
     "css-to-object": "1.1.0",
