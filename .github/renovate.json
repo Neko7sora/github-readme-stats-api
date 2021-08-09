@@ -1,0 +1,17 @@
+{
+    "extends": ["config:base"],
+    "timezone": "Asia/Tokyo",
+    "lockFileMaintenance": {
+        "enabled": true,
+    },
+    "patch": {
+        "automerge": true
+    },
+    "ignoreDeps": ["node"],
+    "packageRules": [
+      {
+        "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+          "automerge": true
+    }
+     ]
+}
