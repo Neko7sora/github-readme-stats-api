@@ -17,13 +17,6 @@
       <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/anuraghazra/github-readme-stats?color=0088ff" />
     </a>
     <br />
-    <br />
-    <a href="https://a.paddle.com/v2/click/16413/119403?link=1227">
-      <img src="https://img.shields.io/badge/Supported%20by-VSCode%20Power%20User%20%E2%86%92-gray.svg?colorA=655BE1&colorB=4F44D6&style=for-the-badge"/>
-    </a>
-    <a href="https://a.paddle.com/v2/click/16413/119403?link=2345">
-      <img src="https://img.shields.io/badge/Supported%20by-Node%20Cli.com%20%E2%86%92-gray.svg?colorA=61c265&colorB=4CAF50&style=for-the-badge"/>
-    </a>
   </p>
 
   <p align="center">
@@ -33,29 +26,7 @@
     ·
     <a href="https://github.com/anuraghazra/github-readme-stats/issues/new/choose">Request Feature</a>
   </p>
-  <p align="center">
-    <a href="/docs/readme_fr.md">Français</a>
-    ·
-    <a href="/docs/readme_cn.md">简体中文</a>
-    ·
-    <a href="/docs/readme_es.md">Español</a>
-    ·
-    <a href="/docs/readme_de.md">Deutsch</a>
-    ·
-    <a href="/docs/readme_ja.md">日本語</a>
-    ·
-    <a href="/docs/readme_pt-BR.md">Português Brasileiro</a>
-    ·
-    <a href="/docs/readme_it.md">Italiano</a>
-    ·
-    <a href="/docs/readme_kr.md">한국어</a>
-    .
-    <a href="/docs/readme_nl.md">Nederlands</a>
-    .
-    <a href="/docs/readme_np.md">नेपाली</a>
-  </p>
 </p>
-<p align="center">このプロジェクトを気に入っていただけましたか？<br>もしよろしければ、プロジェクトのさらなる改善のために<a href="https://www.paypal.me/anuraghazra">寄付</a>を検討して頂けると嬉しいです！</p>
 
 # 主な機能
 
@@ -304,55 +275,3 @@ _NOTE: Top languages は、ユーザのスキルレベルを示すものでは�
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=convoychat" />
 </a>
 ```
-
-## 自分の Vercel インスタンスにデプロイする
-
-#### [@codeSTACKr によるチュートリアルはこちら](https://youtu.be/n6d4KHSKqGk?t=107)
-
-GitHub API は 1 時間あたり 5k リクエストしか受け付けていないので、私の `https://github-readme-stats.vercel.app/api` がレートリミッターを超えてしまう可能性があります。自分の Vercel サーバーでホストしているのであれば、何も心配する必要はありません。デプロイボタンをクリックして始めましょう！
-
-NOTE: [#58](https://github.com/anuraghazra/github-readme-stats/pull/58) 以降は 5k 以上のリクエストに対応できるようになり、ダウンタイムの問題もなくなりました :smile:
-
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/anuraghazra/github-readme-stats)
-
-<details>
- <summary>Vercelの設定ガイド</summary>
-
-1. [vercel.com](https://vercel.com/)に行きます。
-1. `Log in`をクリックします。
-   ![](https://files.catbox.moe/tct1wg.png)
-1. `Continue with GitHub` を押して GitHub にサインインします。
-   ![](https://files.catbox.moe/btd78j.jpeg)
-1. GitHub にサインインし、すべてのリポジトリへのアクセスを許可します。
-1. このリポジトリをフォークします。
-1. [Vercel dashboard](https://vercel.com/dashboard)に戻ります。
-1. `Import Project` を選択します。
-   ![](https://files.catbox.moe/qckos0.png)
-1. `Import Git Repository` を選択します。
-   ![](https://files.catbox.moe/pqub9q.png)
-1. root を選択して、すべてをそのままにしておき、PAT_1 という名前の環境変数を（下図のように）追加します。これには個人アクセストークン (PAT) が含まれており、[ここ](https://github.com/settings/tokens/new)で簡単に作成することができます (すべてをそのままにしておいて、何かに名前を付けてください。)
-   ![](https://files.catbox.moe/0ez4g7.png)
-1. デプロイをクリックすれば完了です。API を使用するためにあなたのドメインを参照してください!
-
-</details>
-
-## :sparkling_heart: このプロジェクトを支援する
-
-私はできる限りのことをオープンソースで行い、また、このプロジェクトを利用する上で困っている皆さん全員に返信するようにしています。もちろん返信には時間が掛かる場合がありますが。
-このプロジェクトは無料でご利用いただけます。
-
-しかしながら、もしあなたがこのプロジェクトに満足しているのであれば、あるいはただ、私がソフトウェアを作り続けるよう励ましたいのであれば、いくつかの方法があります。
-
-- あなたの readme で github-readme-stats を使用して適切なクレジットを付与し、それにリンクします :smile:
-- このプロジェクトにスターを贈り、他の人達にもシェアしてください :rocket:
-- [![paypal.me/anuraghazra](https://ionicabizau.github.io/badges/paypal.svg)](https://www.paypal.me/anuraghazra) - PayPal を介して 1 回限りの寄付を行うことができます。私はおそらく ~~コーヒー~~ お茶を買うでしょう。 :tea:
-
-Thanks! :heart:
-
----
-
-[![https://vercel.com?utm_source=github_readme_stats_team&utm_campaign=oss](../powered-by-vercel.svg)](https://vercel.com?utm_source=github_readme_stats_team&utm_campaign=oss)
-
-コントリビュートは大歓迎です！ :heart_eyes:
-
-このプロジェクトは :heart: と JavaScript で作られています。
