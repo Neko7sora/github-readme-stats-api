@@ -192,6 +192,7 @@ Endpoint: `api/pin?username=anuraghazra&repo=github-readme-stats`
 ### Demo
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FNeko7sora-dev%2Fgithub-readme-stats.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FNeko7sora-dev%2Fgithub-readme-stats?ref=badge_shield)
 
 Use [show_owner](#customization) variable to include the repo's owner username
 
@@ -339,3 +340,6 @@ You usually won't be able to layout the images side by side. To do that you can 
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=convoychat" />
 </a>
 ```
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FNeko7sora-dev%2Fgithub-readme-stats.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FNeko7sora-dev%2Fgithub-readme-stats?ref=badge_large)
