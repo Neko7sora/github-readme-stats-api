@@ -16,17 +16,11 @@
     <a href="https://github.com/anuraghazra/github-readme-stats/pulls">
       <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/anuraghazra/github-readme-stats?color=0088ff" />
     </a>
+    <a href="https://app.fossa.com/projects/git%2Bgithub.com%2FNeko7sora-dev%2Fgithub-readme-stats?ref=badge_shield">
+      <img alt="FOSSA Status" src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FNeko7sora-dev%2Fgithub-readme-stats.svg?type=shield" />
+    </a>
     <br />
   </p>
-
-  <p align="center">
-    <a href="#demo">View Demo</a>
-    ·
-    <a href="https://github.com/anuraghazra/github-readme-stats/issues/new/choose">Report Bug</a>
-    ·
-    <a href="https://github.com/anuraghazra/github-readme-stats/issues/new/choose">Request Feature</a>
-  </p>
-</p>
 
 Fork from https://github.com/anuraghazra/github-readme-stats
 
@@ -192,7 +186,6 @@ Endpoint: `api/pin?username=anuraghazra&repo=github-readme-stats`
 ### Demo
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FNeko7sora-dev%2Fgithub-readme-stats.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FNeko7sora-dev%2Fgithub-readme-stats?ref=badge_shield)
 
 Use [show_owner](#customization) variable to include the repo's owner username
 
