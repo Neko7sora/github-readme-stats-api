@@ -76,6 +76,6 @@ module.exports = async (req, res) => {
       }),
     );
   } catch (err) {
-    return res.send(renderError(err.message, err.secondaryMessage));
+    return res.send(renderError("Something went wrong")); // upstream change - Cross-site Scripting (XSS)
   }
 };
