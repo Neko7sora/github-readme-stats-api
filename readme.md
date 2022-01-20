@@ -16,16 +16,21 @@
     <a href="https://github.com/anuraghazra/github-readme-stats/pulls">
       <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/anuraghazra/github-readme-stats?color=0088ff" />
     </a>
-    <a href="https://app.fossa.com/projects/git%2Bgithub.com%2FNeko7sora-dev%2Fgithub-readme-stats?ref=badge_shield">
-      <img alt="FOSSA Status" src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FNeko7sora-dev%2Fgithub-readme-stats.svg?type=shield" />
-    </a>
   </p>
 
+---
+
 Fork from https://github.com/anuraghazra/github-readme-stats
-## License
+## Shields
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FNeko7sora-dev%2Fgithub-readme-stats.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FNeko7sora-dev%2Fgithub-readme-stats?ref=badge_shield)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/Neko7sora-dev/github-readme-stats.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Neko7sora-dev/github-readme-stats/alerts/)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/Neko7sora-dev/github-readme-stats.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Neko7sora-dev/github-readme-stats/context:javascript)
+
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FNeko7sora-dev%2Fgithub-readme-stats.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FNeko7sora-dev%2Fgithub-readme-stats?ref=badge_large)
 
 ---
+
+# Features
 
 - [GitHub Stats Card](#github-stats-card)
 - [GitHub Extra Pins](#github-extra-pins)
