@@ -33,9 +33,5 @@
     "prettier": "^2.1.2",
     "word-wrap": "^1.2.3"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm test"
-    }
-  }
+  "packageManager": "yarn@3.1.1"
 }
