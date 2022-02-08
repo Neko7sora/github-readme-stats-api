@@ -480,7 +480,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jest/core@npm:^27.4.7, @jest/core@npm:^27.5.0":
+"@jest/core@npm:^27.5.0":
   version: 27.5.0
   resolution: "@jest/core@npm:27.5.0"
   dependencies:
@@ -2124,7 +2124,7 @@ __metadata:
     github-username-regex: ^1.0.0
     hjson: 3.2.2
     husky: 7.0.4
-    jest: 27.4.7
+    jest: 27.5.0
     lodash.snakecase: 4.1.1
     parse-diff: 0.9.0
     prettier: ^2.1.2
@@ -2533,7 +2533,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-cli@npm:^27.4.7":
+"jest-cli@npm:^27.5.0":
   version: 27.5.0
   resolution: "jest-cli@npm:27.5.0"
   dependencies:
@@ -2964,13 +2964,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest@npm:27.4.7":
-  version: 27.4.7
-  resolution: "jest@npm:27.4.7"
+"jest@npm:27.5.0":
+  version: 27.5.0
+  resolution: "jest@npm:27.5.0"
   dependencies:
-    "@jest/core": ^27.4.7
+    "@jest/core": ^27.5.0
     import-local: ^3.0.2
-    jest-cli: ^27.4.7
+    jest-cli: ^27.5.0
   peerDependencies:
     node-notifier: ^8.0.1 || ^9.0.0 || ^10.0.0
   peerDependenciesMeta:
@@ -2978,7 +2978,7 @@ __metadata:
       optional: true
   bin:
     jest: bin/jest.js
-  checksum: 28ce948b30c074907393f37553acac4422d0f60190776e62b3403e4c742d33dd6012e3a20748254a43e38b5b4ce52d813b13a3a5be1d43d6d12429bd08ce1a23
+  checksum: 9aed148ec7a316ef432b12deed3f665fc72487c1dff9690d47e883ab87ab425d32800e2c40fe063462869c25286faab0a3cd23f75b360ae743559158f4829922
   languageName: node
   linkType: hard
 
