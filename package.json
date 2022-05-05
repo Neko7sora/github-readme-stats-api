@@ -28,10 +28,10 @@
   },
   "dependencies": {
     "dotenv": "^16.0.0",
-    "emoji-name-map": "^1.2.8",
+    "emoji-name-map": "^1.2.9",
     "github-username-regex": "^1.0.0",
-    "prettier": "^2.1.2",
+    "prettier": "^2.6.2",
     "word-wrap": "^1.2.3"
   },
-  "packageManager": "yarn@3.2.0"
+  "packageManager": "pnpm@7.0.0"
 }
