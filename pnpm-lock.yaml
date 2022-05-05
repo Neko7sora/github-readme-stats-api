@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@actions/core': 1.7.0
+  '@actions/core': 1.8.0
   '@actions/github': 5.0.1
   '@testing-library/dom': 8.13.0
   '@testing-library/jest-dom': 5.16.4
@@ -28,7 +28,7 @@ dependencies:
   word-wrap: 1.2.3
 
 devDependencies:
-  '@actions/core': 1.7.0
+  '@actions/core': 1.8.0
   '@actions/github': 5.0.1
   '@testing-library/dom': 8.13.0
   '@testing-library/jest-dom': 5.16.4
@@ -44,8 +44,8 @@ devDependencies:
 
 packages:
 
-  /@actions/core/1.7.0:
-    resolution: {integrity: sha512-7fPSS7yKOhTpgLMbw7lBLc1QJWvJBBAgyTX2PEhagWcKK8t0H8AKCoPMfnrHqIm5cRYH4QFPqD1/ruhuUE7YcQ==}
+  /@actions/core/1.8.0:
+    resolution: {integrity: sha512-XirM+Zo/PFlA+1h+i4bkfvagujta+LIM2AOSzPbt8JqXbbuxb1HTB+FqIyaKmue9yiCx/JIJY6pXsOl3+T8JGw==}
     dependencies:
       '@actions/http-client': 1.0.11
     dev: true
