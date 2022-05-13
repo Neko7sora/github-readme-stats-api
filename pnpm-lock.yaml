@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@actions/core': 1.8.1
-  '@actions/github': 5.0.1
+  '@actions/github': 5.0.2
   '@testing-library/dom': 8.13.0
   '@testing-library/jest-dom': 5.16.4
   axios: 0.27.2
@@ -29,7 +29,7 @@ dependencies:
 
 devDependencies:
   '@actions/core': 1.8.1
-  '@actions/github': 5.0.1
+  '@actions/github': 5.0.2
   '@testing-library/dom': 8.13.0
   '@testing-library/jest-dom': 5.16.4
   axios: 0.27.2
@@ -50,21 +50,15 @@ packages:
       '@actions/http-client': 2.0.0
     dev: true
 
-  /@actions/github/5.0.1:
-    resolution: {integrity: sha512-JZGyPM9ektb8NVTTI/2gfJ9DL7Rk98tQ7OVyTlgTuaQroariRBsOnzjy0I2EarX4xUZpK88YyO503fhmjFdyAg==}
+  /@actions/github/5.0.2:
+    resolution: {integrity: sha512-+5a9gntqJhqn3bind2TT2xMp+7H6drlr5JPygyJvr6K8lSOs7qRF02doABmMbJKz+dy04wJVG5bBLCodPoTfaQ==}
     dependencies:
-      '@actions/http-client': 1.0.11
+      '@actions/http-client': 2.0.0
       '@octokit/core': 3.6.0
       '@octokit/plugin-paginate-rest': 2.17.0_@octokit+core@3.6.0
       '@octokit/plugin-rest-endpoint-methods': 5.13.0_@octokit+core@3.6.0
     transitivePeerDependencies:
       - encoding
-    dev: true
-
-  /@actions/http-client/1.0.11:
-    resolution: {integrity: sha512-VRYHGQV1rqnROJqdMvGUbY/Kn8vriQe/F9HR2AlYHzmKuM/p3kjNuXhmdBfcVgsvRWTz5C5XW5xvndZrVBuAYg==}
-    dependencies:
-      tunnel: 0.0.6
     dev: true
 
   /@actions/http-client/2.0.0:
@@ -2679,11 +2673,6 @@ packages:
 
   /tr46/0.0.3:
     resolution: {integrity: sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=}
-    dev: true
-
-  /tunnel/0.0.6:
-    resolution: {integrity: sha512-1h/Lnq9yajKY2PEbBadPXj3VxsDDu844OnaAo52UVmIzIvwwtBPIuNvkjuzBlTWpfJyUbG3ez0KSBibQkj4ojg==}
-    engines: {node: '>=0.6.11 <=0.7.0 || >=0.7.3'}
     dev: true
 
   /type-detect/4.0.8:
