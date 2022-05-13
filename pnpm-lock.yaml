@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@actions/core': 1.8.1
+  '@actions/core': 1.8.2
   '@actions/github': 5.0.2
   '@testing-library/dom': 8.13.0
   '@testing-library/jest-dom': 5.16.4
@@ -28,7 +28,7 @@ dependencies:
   word-wrap: 1.2.3
 
 devDependencies:
-  '@actions/core': 1.8.1
+  '@actions/core': 1.8.2
   '@actions/github': 5.0.2
   '@testing-library/dom': 8.13.0
   '@testing-library/jest-dom': 5.16.4
@@ -44,10 +44,10 @@ devDependencies:
 
 packages:
 
-  /@actions/core/1.8.1:
-    resolution: {integrity: sha512-LuFg2O/+rRrYxrdafnqH9mx6ADszKzQAhDuEhhMQIh47tsXzWkW4wXY5zvscqJ4KDywyJX0LA0pAESPLUjZXvw==}
+  /@actions/core/1.8.2:
+    resolution: {integrity: sha512-FXcBL7nyik8K5ODeCKlxi+vts7torOkoDAKfeh61EAkAy1HAvwn9uVzZBY0f15YcQTcZZ2/iSGBFHEuioZWfDA==}
     dependencies:
-      '@actions/http-client': 2.0.0
+      '@actions/http-client': 2.0.1
     dev: true
 
   /@actions/github/5.0.2:
@@ -63,6 +63,12 @@ packages:
 
   /@actions/http-client/2.0.0:
     resolution: {integrity: sha512-fm1+OPPey5ypgStT9K8zbBhICj4J4UV/TJIHDhuWlkb8KyJaAtjcZK184dTqul0dV0nPKX97FNtDXX20BTLXSA==}
+    dev: true
+
+  /@actions/http-client/2.0.1:
+    resolution: {integrity: sha512-PIXiMVtz6VvyaRsGY268qvj57hXQEpsYogYOu2nrQhlf+XCGmZstmuZBbAybUl1nQGnvS1k1eEsQ69ZoD7xlSw==}
+    dependencies:
+      tunnel: 0.0.6
     dev: true
 
   /@ampproject/remapping/2.2.0:
@@ -2673,6 +2679,11 @@ packages:
 
   /tr46/0.0.3:
     resolution: {integrity: sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=}
+    dev: true
+
+  /tunnel/0.0.6:
+    resolution: {integrity: sha512-1h/Lnq9yajKY2PEbBadPXj3VxsDDu844OnaAo52UVmIzIvwwtBPIuNvkjuzBlTWpfJyUbG3ez0KSBibQkj4ojg==}
+    engines: {node: '>=0.6.11 <=0.7.0 || >=0.7.3'}
     dev: true
 
   /type-detect/4.0.8:
