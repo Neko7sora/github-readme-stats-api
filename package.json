@@ -14,7 +14,7 @@
   "devDependencies": {
     "@actions/core": "1.9.0",
     "@actions/github": "5.0.3",
-    "@testing-library/dom": "8.14.1",
+    "@testing-library/dom": "8.15.0",
     "@testing-library/jest-dom": "5.16.4",
     "axios": "0.27.2",
     "axios-mock-adapter": "1.21.1",
