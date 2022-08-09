@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@actions/core': 1.9.0
+  '@actions/core': 1.9.1
   '@actions/github': 5.0.3
   '@testing-library/dom': 8.16.1
   '@testing-library/jest-dom': 5.16.5
@@ -28,7 +28,7 @@ dependencies:
   word-wrap: 1.2.3
 
 devDependencies:
-  '@actions/core': 1.9.0
+  '@actions/core': 1.9.1
   '@actions/github': 5.0.3
   '@testing-library/dom': 8.16.1
   '@testing-library/jest-dom': 5.16.5
@@ -44,10 +44,11 @@ devDependencies:
 
 packages:
 
-  /@actions/core/1.9.0:
-    resolution: {integrity: sha512-5pbM693Ih59ZdUhgk+fts+bUWTnIdHV3kwOSr+QIoFHMLg7Gzhwm0cifDY/AG68ekEJAkHnQVpcy4f6GjmzBCA==}
+  /@actions/core/1.9.1:
+    resolution: {integrity: sha512-5ad+U2YGrmmiw6du20AQW5XuWo7UKN2052FjSV7MX+Wfjf8sCqcsZe62NfgHys4QI4/Y+vQvLKYL8jWtA1ZBTA==}
     dependencies:
       '@actions/http-client': 2.0.1
+      uuid: 8.3.2
     dev: true
 
   /@actions/github/5.0.3:
@@ -2679,6 +2680,11 @@ packages:
   /urix/0.1.0:
     resolution: {integrity: sha512-Am1ousAhSLBeB9cG/7k7r2R0zj50uDRlZHPGbazid5s9rlF1F/QKYObEKSIunSjIOkJZqwRRLpvewjEkM7pSqg==}
     deprecated: Please see https://github.com/lydell/urix#deprecated
+    dev: true
+
+  /uuid/8.3.2:
+    resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
+    hasBin: true
     dev: true
 
   /v8-to-istanbul/9.0.1:
