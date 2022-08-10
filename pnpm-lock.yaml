@@ -6,7 +6,7 @@ specifiers:
   '@testing-library/dom': 8.17.1
   '@testing-library/jest-dom': 5.16.5
   axios: 0.27.2
-  axios-mock-adapter: 1.21.1
+  axios-mock-adapter: 1.21.2
   color-contrast-checker: 2.1.0
   css-to-object: 1.1.0
   dotenv: ^16.0.0
@@ -33,7 +33,7 @@ devDependencies:
   '@testing-library/dom': 8.17.1
   '@testing-library/jest-dom': 5.16.5
   axios: 0.27.2
-  axios-mock-adapter: 1.21.1_axios@0.27.2
+  axios-mock-adapter: 1.21.2_axios@0.27.2
   color-contrast-checker: 2.1.0
   css-to-object: 1.1.0
   hjson: 3.2.2
@@ -959,8 +959,8 @@ packages:
     hasBin: true
     dev: true
 
-  /axios-mock-adapter/1.21.1_axios@0.27.2:
-    resolution: {integrity: sha512-Pdm7nZuhkz/DSucQ4Bbo9qVBqfm9j7ev9ycTvIXHqvAjnJEjWPHKYfTfpounVp8MwjFFSHXGS7hCkTwAswtSTA==}
+  /axios-mock-adapter/1.21.2_axios@0.27.2:
+    resolution: {integrity: sha512-jzyNxU3JzB2XVhplZboUcF0YDs7xuExzoRSHXPHr+UQajaGmcTqvkkUADgkVI2WkGlpZ1zZlMVdcTMU0ejV8zQ==}
     peerDependencies:
       axios: '>= 0.17.0'
     dependencies:
