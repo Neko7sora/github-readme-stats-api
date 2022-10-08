@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@actions/core': 1.10.0
   '@actions/github': 5.1.1
-  '@testing-library/dom': 8.18.1
+  '@testing-library/dom': 8.19.0
   '@testing-library/jest-dom': 5.16.5
   axios: 0.27.2
   axios-mock-adapter: 1.21.2
@@ -30,7 +30,7 @@ dependencies:
 devDependencies:
   '@actions/core': 1.10.0
   '@actions/github': 5.1.1
-  '@testing-library/dom': 8.18.1
+  '@testing-library/dom': 8.19.0
   '@testing-library/jest-dom': 5.16.5
   axios: 0.27.2
   axios-mock-adapter: 1.21.2_axios@0.27.2
@@ -806,8 +806,8 @@ packages:
       '@sinonjs/commons': 1.8.3
     dev: true
 
-  /@testing-library/dom/8.18.1:
-    resolution: {integrity: sha512-oEvsm2B/WtcHKE+IcEeeCqNU/ltFGaVyGbpcm4g/2ytuT49jrlH9x5qRKL/H3A6yfM4YAbSbC0ceT5+9CEXnLg==}
+  /@testing-library/dom/8.19.0:
+    resolution: {integrity: sha512-6YWYPPpxG3e/xOo6HIWwB/58HukkwIVTOaZ0VwdMVjhRUX/01E4FtQbck9GazOOj7MXHc5RBzMrU86iBJHbI+A==}
     engines: {node: '>=12'}
     dependencies:
       '@babel/code-frame': 7.18.6
