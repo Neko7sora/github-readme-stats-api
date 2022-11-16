@@ -16,7 +16,7 @@ specifiers:
   husky: 7.0.4
   jest: 28.1.3
   lodash.snakecase: 4.1.1
-  parse-diff: 0.9.0
+  parse-diff: 0.10.0
   prettier: ^2.6.2
   word-wrap: ^1.2.3
 
@@ -40,7 +40,7 @@ devDependencies:
   husky: 7.0.4
   jest: 28.1.3
   lodash.snakecase: 4.1.1
-  parse-diff: 0.9.0
+  parse-diff: 0.10.0
 
 packages:
 
@@ -2613,8 +2613,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /parse-diff/0.9.0:
-    resolution: {integrity: sha512-Jn+VZORAezkfOXR6B40EZcXxdJBamtgBpfeoFH6hxD+p0e74nVaCL9SWlQj1ggc8b6AexgPKlDiiE0CMMZDSbQ==}
+  /parse-diff/0.10.0:
+    resolution: {integrity: sha512-7ZnB7HXPl2WdTtSGGzMFuCIzpmaxrDsLwKZp2AQRQVlmL9MUnCHESAmrbKKD5g+ItFJiCN2YPfPyMjWeJV/JoA==}
     dev: true
 
   /parse-json/5.2.0:
