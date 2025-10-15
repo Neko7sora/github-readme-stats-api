@@ -30,7 +30,7 @@
     "dotenv": "^16.0.0",
     "emoji-name-map": "^1.2.9",
     "github-username-regex": "^1.0.0",
-    "prettier": "^2.6.2",
+    "prettier": "^2.8.8",
     "word-wrap": "^1.2.3"
   },
   "packageManager": "pnpm@7.18.1"
