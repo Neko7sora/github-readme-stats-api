@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@actions/core': 1.10.0
+  '@actions/core': 3.0.1
   '@actions/github': 5.1.1
   '@testing-library/dom': 8.19.0
   '@testing-library/jest-dom': 5.16.5
@@ -28,7 +28,7 @@ dependencies:
   word-wrap: 1.2.3
 
 devDependencies:
-  '@actions/core': 1.10.0
+  '@actions/core': 3.0.1
   '@actions/github': 5.1.1
   '@testing-library/dom': 8.19.0
   '@testing-library/jest-dom': 5.16.5
@@ -44,11 +44,17 @@ devDependencies:
 
 packages:
 
-  /@actions/core/1.10.0:
-    resolution: {integrity: sha512-2aZDDa3zrrZbP5ZYg159sNoLRb61nQ7awl5pSvIq5Qpj81vwDzdMRKzkWJGJuwVvWpvZKx7vspJALyvaaIQyug==}
+  /@actions/core/3.0.1:
+    resolution: {integrity: sha512-a6d/Nwahm9fliVGRhdhofo40HjHQasUPusmc7vBfyky+7Z+P2A1J68zyFVaNcEclc/Se+eO595oAr5nwEIoIUA==}
     dependencies:
-      '@actions/http-client': 2.0.1
-      uuid: 8.3.2
+      '@actions/exec': 3.0.0
+      '@actions/http-client': 4.0.1
+    dev: true
+
+  /@actions/exec/3.0.0:
+    resolution: {integrity: sha512-6xH/puSoNBXb72VPlZVm7vQ+svQpFyA96qdDBvhB8eNZOE8LtPf9L4oAsfzK/crCL8YZ+19fKYVnM63Sl+Xzlw==}
+    dependencies:
+      '@actions/io': 3.0.2
     dev: true
 
   /@actions/github/5.1.1:
@@ -66,6 +72,17 @@ packages:
     resolution: {integrity: sha512-PIXiMVtz6VvyaRsGY268qvj57hXQEpsYogYOu2nrQhlf+XCGmZstmuZBbAybUl1nQGnvS1k1eEsQ69ZoD7xlSw==}
     dependencies:
       tunnel: 0.0.6
+    dev: true
+
+  /@actions/http-client/4.0.1:
+    resolution: {integrity: sha512-+Nvd1ImaOZBSoPbsUtEhv+1z99H12xzncCkz0a3RuehINE81FZSe2QTj3uvAPTcJX/SCzUQHQ0D1GrPMbrPitg==}
+    dependencies:
+      tunnel: 0.0.6
+      undici: 6.28.1
+    dev: true
+
+  /@actions/io/3.0.2:
+    resolution: {integrity: sha512-nRBchcMM+QK1pdjO7/idu86rbJI5YHUKCvKs0KxnSYbVe3F51UfGxuZX4Qy/fWlp6l7gWFwIkrOzN+oUK03kfw==}
     dev: true
 
   /@adobe/css-tools/4.0.1:
@@ -3002,6 +3019,11 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
+  /undici/6.28.1:
+    resolution: {integrity: sha512-zWpdTVD54H48CIybL0rWQ3ukpb9d23wM7eH5RtfdmeP70cWHNjtfo7P4vZX+5CoDcO53J4Pu5uXp7lNfjc6DRA==}
+    engines: {node: '>=18.17'}
+    dev: true
+
   /universal-user-agent/6.0.0:
     resolution: {integrity: sha512-isyNax3wXoKaulPDZWHQqbmIx1k2tb9fb3GGDBRxCscfYV2Ch7WxPArBsFEG8s/safwXTT7H4QGhaIkTp9447w==}
     dev: true
@@ -3020,11 +3042,6 @@ packages:
   /urix/0.1.0:
     resolution: {integrity: sha512-Am1ousAhSLBeB9cG/7k7r2R0zj50uDRlZHPGbazid5s9rlF1F/QKYObEKSIunSjIOkJZqwRRLpvewjEkM7pSqg==}
     deprecated: Please see https://github.com/lydell/urix#deprecated
-    dev: true
-
-  /uuid/8.3.2:
-    resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
-    hasBin: true
     dev: true
 
   /v8-to-istanbul/9.0.1:
